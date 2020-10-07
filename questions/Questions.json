@@ -108,5 +108,10 @@
     "language": "C++",
     "code": "```cpp\nint cout = 17 + 10 % 2 + 1 + 200 % 2;\nint endl = 2;\n\nstd::cout << cout + endl << std::endl;\n\n// What does this print out in the console?\n\n```",
     "answer": "20"
+  },
+  "22": {
+    "language": "C++",
+    "code": "```cpp\nenum day {sunday = 1, monday, tuesday = 5,\n          wednesday, thursday = 10, friday, saturday}; \n          \nday day_of_the_week = wednesday;\n\nstd::cout << day_of_the_week << std::endl;\n\n// What does this print out in the console?\n\n```",
+    "answer": "6"
   }
 }

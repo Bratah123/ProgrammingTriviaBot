@@ -13,7 +13,6 @@ class QuizHandler:
             self._language = data['language']
             self._answer = data['answer']
             self._code = data['code']
-            json_file.close()
 
     def repopulate_properties(self):
         with open('D:/TriviaBot/ProgrammingTriviaBot/questions/Questions.json', 'r') as json_file:
@@ -21,7 +20,6 @@ class QuizHandler:
             self._language = data['language']
             self._answer = data['answer']
             self._code = data['code']
-            json_file.close()
 
     def is_correct_ans(self, ans):
         return ans == self.answer

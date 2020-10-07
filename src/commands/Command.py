@@ -25,7 +25,7 @@ class Command:
             quiz_handler = QuizHandler(str(randint(0, len(data) - 1)))
             json_file.close()
 
-        embed_msg = discord.Embed(title="Programming Trivia", description="You have 12 seconds to answer! \n"
+        embed_msg = discord.Embed(title="Programming Trivia", description="You have 20 seconds to answer! \n"
                                                                           "Note: Type in 'error' if the answer will "
                                                                           "return an error.",
                                   colour=0x00FFFF)
@@ -38,7 +38,7 @@ class Command:
 
         amount_of_points = randint(1, 10)
         try:
-            user_msg = await client.wait_for('message', check=check, timeout=12.0)
+            user_msg = await client.wait_for('message', check=check, timeout=20.0)
             del CommandTracking.list_of_current_players[author]
             if DatabaseHandler.is_already_user(author.id):
                 DatabaseHandler.add_points(author.id, amount_of_points)

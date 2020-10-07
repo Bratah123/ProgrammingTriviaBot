@@ -1,0 +1,1 @@
+list_of_current_players = {}

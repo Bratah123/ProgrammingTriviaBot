@@ -1,0 +1,12 @@
+{
+  "0" : {
+    "language": "Python",
+    "code": "```py\nx = 0\nfor i in range(0, 50, 2):\n\tx += 1\nprint(x)\n# What does it print in console?```",
+    "answer": "25"
+  },
+  "1" : {
+    "language": "C++",
+    "code": "```cpp\nint x = 5\n\nif(x = 4){\n\tstd::cout << \"X is 4\";\n}\nelse {\n\tstd::cout << \"X is not 4\";\n}\n// What does it print in console?```",
+    "answer": "X is 4"
+  }
+}

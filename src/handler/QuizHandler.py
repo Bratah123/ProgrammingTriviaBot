@@ -16,7 +16,7 @@ class QuizHandler:
             json_file.close()
 
     def repopulate_properties(self):
-        with open('ProgrammingTriviaBot/questions/Questions.json', 'r') as json_file:
+        with open('D:/TriviaBot/ProgrammingTriviaBot/questions/Questions.json', 'r') as json_file:
             data = json.load(json_file)[self._question]
             self._language = data['language']
             self._answer = data['answer']

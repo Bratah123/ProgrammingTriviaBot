@@ -6,7 +6,7 @@
   },
   "1" : {
     "language": "C++",
-    "code": "```cpp\nint x = 5\n\nif(x = 4){\n\tstd::cout << \"X is 4\";\n}\nelse {\n\tstd::cout << \"X is not 4\";\n}\n// What does it print in console?```",
+    "code": "```cpp\nint x = 5\n\nif(x = 4) {\n\tstd::cout << \"X is 4\";\n}\nelse {\n\tstd::cout << \"X is not 4\";\n}\n// What does it print in console?```",
     "answer": "X is 4"
   }
 }

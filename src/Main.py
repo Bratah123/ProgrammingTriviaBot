@@ -4,6 +4,7 @@ from discord.ext import commands
 from src import CommandTracking
 from src.config import Config
 from src.handler.CommandHandler import CommandHandler
+from src.handler.DatabaseHandler import DatabaseHandler
 
 start_time = time.time()
 

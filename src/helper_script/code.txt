@@ -1,20 +1,10 @@
-```cpp
-std::string s = "Hippopotomonstrosesquippedaliophobia";
-std::string o = "";
-
-for (auto &c : s) {
-    if(tolower(c) == 'z'){
-        o += c;
-    }
-    else if (toupper(c) == 'a') {
-        o += toupper(c);
-    }
-    else if(toupper(c) == 'H'){
-        o += tolower(c);
-    }
+```js
+function sub_51825(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
-std::cout << o;
+console.log(sub_51825(421521512))
 
 // What does this print out in the console?
+
 ```

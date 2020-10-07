@@ -30,98 +30,218 @@
     "answer": "h"
   },
     "5" : {
-    "language": "",
-    "code": "``````",
-    "answer": ""
+    "language": "Python",
+    "code": "```py\ndef subtract(x):\n    if x < 2:\n        return x\n    return subtract(x-5):\n\nprint(subtract(66))\n\n# What does this print out in the console?\n\n```",
+    "answer": "1"
   },
     "6" : {
-    "language": "",
-    "code": "``````",
-    "answer": ""
+    "language": "C++",
+    "code": "```cpp\nint gcd(int a, int b)\n{\n    if (a == 0)\n        return b;\n    return gcd(b % a, a);\n}\n\nint main()\n{\n    int a = 10, b = 15;\n    std::cout << gcd(10, 15)\n    return 0;\n}\n\n// What does this print out in the console?\n\n```",
+    "answer": "5"
   },
     "7" : {
-    "language": "",
-    "code": "``````",
-    "answer": ""
+    "language": "C++",
+    "code": "```cpp\nint x = 5 + 16 % 3 - 1;\nstd::cout << x;\n\n// What does this print out in the console?\n\n```",
+    "answer": "5"
   },
     "8" : {
-    "language": "",
-    "code": "``````",
-    "answer": ""
+    "language": "C++",
+    "code": "```cpp\nstring s = \"Ihatemylife-Brandon\";\n\nstd::cout << s[1] << \" \" << s[3] << s[6] << \" \" << s[13];\n\n// What does this print out in the console?\n\n```",
+    "answer": "I am B"
   },
     "9" : {
-    "language": "",
-    "code": "``````",
-    "answer": ""
+    "language": "JavaScript",
+    "code": "```js\nfunction sub_51825(x) {\n    return x.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\");\n}\n\nconsole.log(sub_51825(421521512))\n\n// What does this print out in the console?\n\n```",
+    "answer": "421,521,512"
   },
     "10" : {
     "language": "",
-    "code": "``````",
+    "code": "",
     "answer": ""
   },
     "11" : {
     "language": "",
-    "code": "``````",
+    "code": "",
     "answer": ""
   },
     "12" : {
     "language": "",
-    "code": "``````",
+    "code": "",
     "answer": ""
   },
     "13" : {
     "language": "",
-    "code": "``````",
+    "code": "",
     "answer": ""
   },
     "14" : {
     "language": "",
-    "code": "``````",
+    "code": "",
     "answer": ""
   },
     "15" : {
     "language": "",
-    "code": "``````",
+    "code": "",
     "answer": ""
   },
     "16" : {
     "language": "",
-    "code": "``````",
+    "code": "",
     "answer": ""
   },
     "17" : {
     "language": "",
-    "code": "``````",
+    "code": "",
     "answer": ""
   },
     "18" : {
     "language": "",
-    "code": "``````",
+    "code": "",
     "answer": ""
   },
     "19" : {
     "language": "",
-    "code": "``````",
+    "code": "",
     "answer": ""
   },
     "20" : {
     "language": "",
-    "code": "``````",
+    "code": "",
     "answer": ""
   },
     "21" : {
     "language": "",
-    "code": "``````",
+    "code": "",
     "answer": ""
   },
     "22" : {
     "language": "",
-    "code": "``````",
+    "code": "",
     "answer": ""
   },
     "23" : {
     "language": "",
-    "code": "``````",
+    "code": "",
+    "answer": ""
+  },
+      "24" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "25" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "26" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "27" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "28" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "29" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "30" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "31" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "32" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "33" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "34" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "35" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "36" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "37" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "38" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "39" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "40" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "41" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "42" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "43" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "44" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "45" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "46" : {
+    "language": "",
+    "code": "",
+    "answer": ""
+  },
+      "47" : {
+    "language": "",
+    "code": "",
     "answer": ""
   }
 }

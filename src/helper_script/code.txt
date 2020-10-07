@@ -1,9 +1,8 @@
-```js
-function sub_51825(x) {
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-}
+```cpp
+int cout = 17 + 10 % 2 + 1 + 200 % 2;
+int endl = 2;
 
-console.log(sub_51825(421521512))
+std::cout << cout + endl << std::endl;
 
 // What does this print out in the console?
 

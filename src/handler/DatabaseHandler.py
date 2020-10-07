@@ -35,7 +35,11 @@ class DatabaseHandler:
         db = open('D:/TriviaBot/ProgrammingTriviaBot/database/database.json', 'r')
         json_data = json.load(db)
         db.close()
-        return json_data[str(author_id)] is not None
+        try:
+            return json_data[str(author_id)] is not None
+        except Exception as e:
+            print(e)
+            return False
 
     @staticmethod
     def get_points(author_id):

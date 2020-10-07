@@ -1,10 +1,8 @@
 import time
 from discord.ext import commands
 
-from src import CommandTracking
 from src.config import Config
 from src.handler.CommandHandler import CommandHandler
-from src.handler.DatabaseHandler import DatabaseHandler
 
 start_time = time.time()
 
@@ -24,7 +22,7 @@ async def on_message(ctx):  # method that is called whenever a message is sent i
 
 
 def main():  # main function
-    client.run(Config.BOT_TOKEN)
+    client.run(Config.AZURE_TOKEN)
 
 
 if __name__ == '__main__':

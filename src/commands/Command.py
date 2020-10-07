@@ -36,7 +36,7 @@ class Command:
         def check(m):
             return quiz_handler.is_correct_ans(m.content) and m.author == author and m.channel == txt_channel
 
-        amount_of_points = randint(0, 10)
+        amount_of_points = randint(1, 10)
         try:
             msg = await client.wait_for('message', check=check, timeout=12.0)
             del CommandTracking.list_of_current_players[author]

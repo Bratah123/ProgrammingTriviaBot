@@ -38,7 +38,7 @@ class Command:
 
         amount_of_points = randint(1, 10)
         try:
-            msg = await client.wait_for('message', check=check, timeout=12.0)
+            user_msg = await client.wait_for('message', check=check, timeout=12.0)
             del CommandTracking.list_of_current_players[author]
             if DatabaseHandler.is_already_user(author.id):
                 DatabaseHandler.add_points(author.id, amount_of_points)

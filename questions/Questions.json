@@ -8,5 +8,120 @@
     "language": "C++",
     "code": "```cpp\nint x = 5\n\nif(x = 4) {\n\tstd::cout << \"X is 4\";\n}\nelse {\n\tstd::cout << \"X is not 4\";\n}\n// What does it print in console?```",
     "answer": "X is 4"
+  },
+  "2": {
+    "language": "Java",
+    "code": "```java\nString array[][] = {\n    {\"Hello\", \"World\"},\n    {\"Foo\", \"Bar\"},\n    {\"Any\", \"Thing\"},\n    {\"This\", \"Quiz\"}\n}\n\nSystem.out.println(array[3][2]);\n\n// What does this print out in the console?\n```",
+    "answer": "Thing"
+  },
+  "3": {
+    "language": "C++",
+    "code": "```cpp\nint x = 42.19\nstd::cout << x;\n\n// What does this print out in the console?\n```",
+    "answer": "42"
+  },
+  "4": {
+    "language": "Python",
+    "code": "```py\ntext = \"I love homemade pie\"\ntext_split = text.split()\n\nprint(text_split[3])\n\n// What does this print out in the console?\n```",
+    "answer": "homemade"
+  },
+  "4": {
+    "language": "C++",
+    "code": "```cpp\nstd::string s = \"Hippopotomonstrosesquippedaliophobia\";\nstd::string o = \"\";\n\nfor (auto &c : s) {\n    if(tolower(c) == 'z'){\n        o += c;\n    }\n    else if (toupper(c) == 'a') {\n        o += toupper(c);\n    }\n    else if(toupper(c) == 'H'){\n        o += tolower(c);\n    }\n}\n\nstd::cout << o;\n\n// What does this print out in the console?\n```",
+    "answer": "h"
+  },
+    "5" : {
+    "language": "",
+    "code": "``````",
+    "answer": ""
+  },
+    "6" : {
+    "language": "",
+    "code": "``````",
+    "answer": ""
+  },
+    "7" : {
+    "language": "",
+    "code": "``````",
+    "answer": ""
+  },
+    "8" : {
+    "language": "",
+    "code": "``````",
+    "answer": ""
+  },
+    "9" : {
+    "language": "",
+    "code": "``````",
+    "answer": ""
+  },
+    "10" : {
+    "language": "",
+    "code": "``````",
+    "answer": ""
+  },
+    "11" : {
+    "language": "",
+    "code": "``````",
+    "answer": ""
+  },
+    "12" : {
+    "language": "",
+    "code": "``````",
+    "answer": ""
+  },
+    "13" : {
+    "language": "",
+    "code": "``````",
+    "answer": ""
+  },
+    "14" : {
+    "language": "",
+    "code": "``````",
+    "answer": ""
+  },
+    "15" : {
+    "language": "",
+    "code": "``````",
+    "answer": ""
+  },
+    "16" : {
+    "language": "",
+    "code": "``````",
+    "answer": ""
+  },
+    "17" : {
+    "language": "",
+    "code": "``````",
+    "answer": ""
+  },
+    "18" : {
+    "language": "",
+    "code": "``````",
+    "answer": ""
+  },
+    "19" : {
+    "language": "",
+    "code": "``````",
+    "answer": ""
+  },
+    "20" : {
+    "language": "",
+    "code": "``````",
+    "answer": ""
+  },
+    "21" : {
+    "language": "",
+    "code": "``````",
+    "answer": ""
+  },
+    "22" : {
+    "language": "",
+    "code": "``````",
+    "answer": ""
+  },
+    "23" : {
+    "language": "",
+    "code": "``````",
+    "answer": ""
   }
 }

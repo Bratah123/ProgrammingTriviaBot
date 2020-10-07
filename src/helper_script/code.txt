@@ -1,0 +1,20 @@
+```cpp
+std::string s = "Hippopotomonstrosesquippedaliophobia";
+std::string o = "";
+
+for (auto &c : s) {
+    if(tolower(c) == 'z'){
+        o += c;
+    }
+    else if (toupper(c) == 'a') {
+        o += toupper(c);
+    }
+    else if(toupper(c) == 'H'){
+        o += tolower(c);
+    }
+}
+
+std::cout << o;
+
+// What does this print out in the console?
+```

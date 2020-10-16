@@ -11,7 +11,7 @@ class DatabaseHandler:
         db = open('D:/TriviaBot/ProgrammingTriviaBot/database/database.json', 'w')
         json_data[str(author_id)][0]["quizPoints"] += point_amount
         try:
-            json.dump(json_data, db)
+            json.dump(json_data, db, indent=4)
         except Exception as e:
             print(e)
         db.close()

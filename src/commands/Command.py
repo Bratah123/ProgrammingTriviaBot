@@ -12,7 +12,7 @@ from src.handler.QuizHandler import QuizHandler
 class Command:
 
     @staticmethod
-    @command(cmd=["trivia", "quiz", "questions"])
+    @command(cmd=["trivia", "quiz", "questions", "edabit"])
     async def handle_trivia(client, txt_channel, author, msg) \
             -> "Sends author a programming problem to solve.":
         if CommandTracking.list_of_current_players.get(author) is not None:
